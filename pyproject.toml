@@ -10,6 +10,7 @@ packages = [{include = "micro_shop"}]
 python = "^3.10.7"
 fastapi = "^0.104.0"
 uvicorn = {extras = ["standart"], version = "^0.23.2"}
+pydantic = {extras = ["email"], version = "^2.4.2"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
